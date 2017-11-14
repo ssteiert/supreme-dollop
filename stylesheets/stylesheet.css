@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.35rem;
+  font-size: 1em;
   line-height: 1.5;
 background-image: linear-gradient(70deg, #CDB380, #036564, #031634); 
   background-attachment: fixed;
@@ -28,7 +28,7 @@ p {
   font-size: 1.35rem;
 }
 
-.btn {
+.btn-clear {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -39,11 +39,12 @@ p {
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 font-family: "Barlow Condensed";
-font-size: 1.35rem;}
-  .btn + .btn {
+font-size: 1.35rem;
+padding: .35rem;}
+  .btn-clear + .btn-clear {
     margin-left: 1rem; }
 
-.btn:hover {
+.btn-clear:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
