@@ -22,6 +22,7 @@ a {
 
 p {
   margin-top: 0;
+  font-size: 1.35rem;
 }
 
 .btn {
@@ -34,7 +35,8 @@ p {
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-font-family: "Barlow Condensed";}
+font-family: "Barlow Condensed";
+font-size: 1.35rem;}
   .btn + .btn {
     margin-left: 1rem; }
 
@@ -55,7 +57,7 @@ font-family: "Barlow Condensed";}
   margin: 26px auto 0;
   max-width: 550px;
   min-height: 200px;
-  padding: 24px;
+  padding: 5rem;
   position: relative;
   width: 80%;
 }
