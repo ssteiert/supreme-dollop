@@ -245,3 +245,10 @@ padding: .35rem;}
         transform: rotate(90deg);
         background-color: #212529; }
 
+@media screen and (max-width: 600px) {
+
+#mobile-hide {
+  visibility: hidden;
+  display: none;
+}
+}
